@@ -17,11 +17,9 @@
 body {
     color: var(--branco);
     background-color: var(--cor-de-fundo);
-    font-family: var(--roboto);
 }
 
 .titulo-principal {
-    font-family: var(--roboto-mono);
     font-size: 32px;
 }
 
@@ -45,7 +43,6 @@ body {
     background-color: var(--fundo-senha);
     border: none;
     color: var(--branco);
-    font-family: var(--roboto-mono);
     font-size: 40px;
     width: 70%;
 }
