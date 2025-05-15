@@ -2,12 +2,11 @@
 
 :root {
     --branco: white;
-    --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
-    --roboto: 'Roboto', sans-serif;
-    --roboto-mono: 'Roboto Mono', monospace;
+    --cor-de-fundo: #001013;
+    --fundo-senha: #003435;
+    --fundo-texto: #003140;
+    --borda: #00e1ff;
+    --fonte: 
 }
 
 * {
@@ -20,7 +19,8 @@ body {
 }
 
 .titulo-principal {
-    font-size: 32px;
+    font-size: 35px;
+    font-weight: 400;
 }
 
 .titulo-secundario {
@@ -64,7 +64,6 @@ body {
 }
 
 .parametro-titulo {
-    font-family: var(--roboto-mono);
     font-size: 28px;
 }
 
