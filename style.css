@@ -3,7 +3,7 @@
 :root {
     --branco: white;
     --cor-de-fundo: #000413;
-    --fundo-senha: #000a22;
+    --fundo-senha: #00123d;
     --fundo-texto: #000121;
     --borda: #00e1ff;
     --fonte: 
@@ -88,9 +88,9 @@ body {
 }
 
 .parametro-senha__botao {
-    background-color: var(--fundo-texto);
+    background-color: var(--fundo-senha);
     color: var(--branco);
-    border: 2px solid var(--borda);
+    border: 3px solid var(--borda);
     padding: 24px;
     font-size: 24px;
     cursor: pointer;
