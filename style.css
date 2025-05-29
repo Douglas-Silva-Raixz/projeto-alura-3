@@ -116,7 +116,7 @@ label{
 .barra{
     background-color: var(--fundo-senha);
     height: 30px;
-    width: 50%;
+    width: 100%;
 }
 .forca{
     height: 30px;
