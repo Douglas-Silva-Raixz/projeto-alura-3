@@ -116,12 +116,12 @@ label{
 .barra{
     background-color: var(--fundo-senha);
     height: 30px;
-    width: 100%;
+    width: 50%;
 }
 .forca{
     height: 30px;
     position: relative;
-    bottom: 10px;
+    bottom: 30px;
 }
 .fraca{
     width: 25%;
