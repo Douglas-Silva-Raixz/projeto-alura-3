@@ -13,7 +13,8 @@ function diminuiTamanho(){
 }
 function aumentaTamanho(){
     tamanhoSenha = tamanhoSenha+1;
-    numeroSenha.textContent = tamanhoSenha;
+}
+numeroSenha.textContent = tamanhoSenha;
 }
 function diminuiTamanho(){
     if (tamanhoSenha > 1){
@@ -21,6 +22,7 @@ function diminuiTamanho(){
     }
     numeroSenha.textContent = tamanhoSenha;
 }
+ geraSenha();
 const campoSenha = document.querySelector('#campo-senha');
 const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';
 geraSenha();
